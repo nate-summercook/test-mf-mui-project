@@ -19,3 +19,5 @@ Not much is needed to get the app(s) to start up. First line of course gets all 
 npm i
 npm run all
 ```
+
+Then open http://localhost:3001 to see the error mentioned above in the console.
