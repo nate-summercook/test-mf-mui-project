@@ -1,0 +1,3 @@
+
+    export type RemoteKeys = '_odb_resources/Brand' | '_odb_resources/Icons' | '_odb_resources/Illustrations' | '_odb_resources/Themes' | '_odb_resources/ConfigProfiles' | '_odb_resources/Translations';
+    type PackageType<T> = T extends '_odb_resources/Translations' ? typeof import('_odb_resources/Translations') :T extends '_odb_resources/ConfigProfiles' ? typeof import('_odb_resources/ConfigProfiles') :T extends '_odb_resources/Themes' ? typeof import('_odb_resources/Themes') :T extends '_odb_resources/Illustrations' ? typeof import('_odb_resources/Illustrations') :T extends '_odb_resources/Icons' ? typeof import('_odb_resources/Icons') :T extends '_odb_resources/Brand' ? typeof import('_odb_resources/Brand') :any;

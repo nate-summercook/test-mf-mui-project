@@ -1,0 +1,27 @@
+{
+  "name": "test-mf-mui-project-components-app",
+  "version": "1.0.0",
+  "description": "Rsbuild project with React, MUI and Module Federation 2.0 – Components App",
+  "scripts": {
+    "dev": "rsbuild dev",
+    "build": "rsbuild build",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "@mui/material": "^7.3.5",
+    "@mui/system": "^7.3.5",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "1.6.12",
+    "@rsbuild/plugin-react": "^1.4.2",
+    "@module-federation/enhanced": "^0.21.6",
+    "@module-federation/rsbuild-plugin": "0.21.6",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "typescript": "^5.7.2"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "test-mf-mui-project",
+  "version": "1.0.0",
+  "description": "Rsbuild project with React, MUI and Module Federation 2.0",
+  "scripts": {
+    "all": "concurrently -n container,components -c green,blue \"npm run dev -w test-mf-mui-project-container-app\" \"npm run dev -w test-mf-mui-project-components-app\""
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "concurrently": "9.2.1"
+  }
+}
