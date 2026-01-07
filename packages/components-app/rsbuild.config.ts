@@ -18,7 +18,7 @@ const moduleFederationOptions = {
       singleton: true,
       eager: true,
       requiredVersion: '^18.3.1',
-    },
+    },/*
     '@emotion/react': {
       singleton: true,
       eager: true,
@@ -28,7 +28,7 @@ const moduleFederationOptions = {
       singleton: true,
       eager: true,
       requiredVersion: '^11.14.0',
-    },
+    },*/
   },
 };
 
